@@ -1,0 +1,20 @@
+/* NotificationBadge.css */
+.notification-badge {
+    top: 4px;
+    /* Adjust top position to align with Bell icon */
+    right: 4px;
+    /* Adjust right position to align with Bell icon */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 12px;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0);
+    z-index: 2;
+    /* Ensure the badge appears above the Bell icon */
+}
+
+.notification-badge.active {
+    transform: scale(1);
+}
