@@ -25,7 +25,7 @@ import UserListItem from '../userAvater/UserListItem';
 import { getSender } from '../../config/ChatLogic';
 import NotificationBadge from './NotificationBadge';
 import './notificationBadge.css';
-const baseurl = 'http://localhost:5000';
+import { baseurl } from '../baseurl'
 const SideDrawer = () => {
     const [search, setSearch] = useState("");
     const [searchResult, setSearchResult] = useState([]);

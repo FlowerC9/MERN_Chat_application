@@ -6,7 +6,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useToast } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-const baseurl = "http://localhost:5000";
+import { baseurl } from '../baseurl'
 const Login = () => {
     const [show, setShow] = useState(false);
     const handleClick = () => setShow(!show);

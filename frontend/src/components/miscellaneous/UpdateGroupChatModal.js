@@ -16,7 +16,7 @@ import { ChatState } from '../../context/chatProvider'
 import UserBadgeItem from '../userAvater/UserBadgeItem'
 import UserListItem from '../userAvater/UserListItem'
 import axios from 'axios'
-const baseurl = 'http://localhost:5000';
+import { baseurl } from '../baseurl'
 const UpdateGroupChatModal = ({ fetchAgain, setFetchAgain, fetchMessages }) => {
     const { user, selectedChat, setSelectedChat } = ChatState();
     const { isOpen, onOpen, onClose } = useDisclosure();

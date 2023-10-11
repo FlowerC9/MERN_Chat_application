@@ -6,7 +6,7 @@ import { AddIcon } from '@chakra-ui/icons';
 import ChatLoading from './ChatLoading';
 import { getSender } from '../../config/ChatLogic';
 import GroupChatModal from '../miscellaneous/GroupChatModal';
-const baseurl = 'http://localhost:5000';
+import { baseurl } from '../baseurl'
 const MyChats = ({ fetchAgain }) => {
     const { user, setSelectedChat, selectedChat, chats, setChats } = ChatState();
     const [loggedUser, setLoggedUser] = useState();

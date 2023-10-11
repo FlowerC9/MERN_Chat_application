@@ -19,7 +19,7 @@ import { useState } from "react";
 import { ChatState } from "../../context/chatProvider"
 import UserBadgeItem from "../userAvater/UserBadgeItem"
 import UserListItem from "../userAvater/UserListItem"
-const baseurl = 'http://localhost:5000';
+import { baseurl } from '../baseurl'
 const GroupChatModal = ({ children }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [groupChatName, setGroupChatName] = useState();
