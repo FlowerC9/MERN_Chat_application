@@ -53,7 +53,7 @@ httpServer.listen(PORT, () => {
 const io = new Server(httpServer, {
     pingTimeout: 60000,
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://master--meek-brigadeiros-46a6c5.netlify.app",
     },
 });
 
