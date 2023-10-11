@@ -4,4 +4,4 @@ It supports one on one chat as well as group chat and it has typing indicator to
 
 the live link for the app- (https://meek-brigadeiros-46a6c5.netlify.app)
 
-![alt text](https://github.com/FlowerC9/mern_Chat_application/blob/master/screenshots/Screenshot%202023-10-11%20195324.png)
+![alt text](Screenshot%202023-10-11%20195324.png)
