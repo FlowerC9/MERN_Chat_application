@@ -4,7 +4,7 @@ It supports one on one chat as well as group chat and it has typing indicator to
 
 the live link for the app- (https://meek-brigadeiros-46a6c5.netlify.app)
 
-![alt text](screenshots/Screenshot 2023-10-11 195324.png)
+![alt text](https://screenshots/Screenshot 2023-10-11 195324.png)
 # DESCRIPTION
 
 
